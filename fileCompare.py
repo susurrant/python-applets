@@ -28,5 +28,5 @@ def fileCompare(file1, file2, tag=False):
                     return
                 c += 1
 
-
-fileCompare('a.txt', 'b.txt', True)
+if __name__ == '__main__':
+    fileCompare('a.txt', 'b.txt', True)
