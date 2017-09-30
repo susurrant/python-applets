@@ -22,7 +22,5 @@ def dt2ts(dt):
      return int(s)
  
 if __name__ == '__main__':
-    d = dt2ts('2016-07-30 13:52:40')
-    print d
-    s = ts2dt(1469857960)
-    print s
+    print(dt2ts('2016-07-30 13:52:40'))
+    print(ts2dt(1469857960))

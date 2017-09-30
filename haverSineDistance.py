@@ -35,7 +35,6 @@ def haverSineDistance(lon1, lat1, lon2, lat2, EARTH_RADIUS = 6371.0):
     distance = 2 * EARTH_RADIUS * math.asin(math.sqrt(h))
     return distance
 
-'''
+
 if __name__ == '__main__':
     print haverSineDistance(121.473704, 31.230393, 120.585316, 31.298886)
-'''

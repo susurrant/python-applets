@@ -1,5 +1,5 @@
 '''
-    write data into file
+    dump data into file
 '''
 
 def serializeList(data, fileName, header, s):
