@@ -1,7 +1,7 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-' 半正矢公式：给定两点经纬度，计算距离（km） '
+''' 半正矢公式：给定两点经纬度，计算距离（km）'''
 
 __author__ = 'Xin Yao'
 
@@ -37,4 +37,4 @@ def haverSineDistance(lon1, lat1, lon2, lat2, EARTH_RADIUS = 6371.0):
 
 
 if __name__ == '__main__':
-    print haverSineDistance(121.473704, 31.230393, 120.585316, 31.298886)
+    print(haverSineDistance(121.473704, 31.230393, 120.585316, 31.298886))

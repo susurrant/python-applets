@@ -9,22 +9,22 @@ def fileCompare(file1, file2, tag=False):
                 if line1:
                     if line2:
                         if line1.strip() != line2.strip():
-                            print 'False'
-                            print 'line:' + str(c)
+                            print('False')
+                            print('line:' + str(c))
                             if tag:
-                                print file1, ':', line1
-                                print file2, ':', line2
+                                print(file1, ':', line1)
+                                print(file2, ':', line2)
                             return
                     else:
-                        print 'False'
-                        print file2 + ' ended first.'
+                        print('False')
+                        print(file2 + ' ended first.')
                         return
                 else:
                     if line2:
-                        print 'False'
-                        print file1+' ended first.'
+                        print('False')
+                        print(file1+' ended first.')
                     else:
-                        print 'True'
+                        print('True')
                     return
                 c += 1
 

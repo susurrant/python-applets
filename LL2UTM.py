@@ -186,16 +186,15 @@ def UTM2LL_USGS(x, y, lon0=117.0):
     lon = lon0 - degrees((Q5 - Q6 + Q7)/cos(fp))
     return lat, lon
 
-'''
+
 if __name__ == '__main__':
     lat = 31.936488
     lon = 118.78544
     UTMEasting, UTMNorthing = LL2UTM_USGS(lat, lon)
-    print "UGCS: E:%f, N:%f"%(UTMEasting, UTMNorthing)
+    print("UGCS: E:%f, N:%f"%(UTMEasting, UTMNorthing))
     lat_convert, lon_convert = UTM2LL_USGS(UTMEasting, UTMNorthing)
-    print "After convert: E:%f, N:%f" % (lon_convert, lat_convert)
+    print("After convert: E:%f, N:%f" % (lon_convert, lat_convert))
     UTMEasting, UTMNorthing = LL2UTM_Army(lat, lon)
-    print "Army: E:%f, N:%f"%(UTMEasting, UTMNorthing)
+    print("Army: E:%f, N:%f"%(UTMEasting, UTMNorthing))
     lat_convert, lon_convert = UTM2LL_USGS(UTMEasting, UTMNorthing)
-    print "After convert: E:%f, N:%f" % (lon_convert, lat_convert)
-'''
+    print("After convert: E:%f, N:%f" % (lon_convert, lat_convert))
