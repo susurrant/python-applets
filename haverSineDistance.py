@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3.5
 # -*- coding: utf-8 -*-
 
 ''' 半正矢公式：给定两点经纬度，计算距离（km）'''

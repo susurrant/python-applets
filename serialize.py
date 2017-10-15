@@ -1,6 +1,9 @@
-'''
-    write data into file
-'''
+#!/usr/bin/env python3.5
+# -*- coding: utf-8 -*-
+
+'''dump data into file'''
+__author__ = 'Xin Yao'
+
 
 def serializeList(data, fileName, header, s):
     with open(fileName, 'w', newline='') as rf:

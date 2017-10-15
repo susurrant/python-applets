@@ -1,3 +1,8 @@
+#!/usr/bin/env python3.5
+# -*- coding: utf-8 -*-
+
+__author__ = 'Xin Yao'
+
 
 def fileCompare(file1, file2, tag=False):
     with open(file1, 'r') as f1:

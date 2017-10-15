@@ -1,5 +1,8 @@
+#!/usr/bin/env python3.5
 # -*- coding: utf-8 -*-
- 
+
+__author__ = 'Xin Yao'
+
 import time
  
 def ts2dt(value):
