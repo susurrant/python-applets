@@ -1,5 +1,5 @@
 # python-applets
-Useful codes of Python</br>
+Useful programs of Python</br>
 Python version: 3.5</br>
 
 fileCompare.py:       Compare the contents of two files.</br>
