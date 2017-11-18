@@ -1,7 +1,10 @@
 #!/usr/bin/env python3.5
 # -*- coding: utf-8 -*-
 
-'''dump data into file'''
+"""
+write data to files
+"""
+
 __author__ = 'Xin Yao'
 
 
