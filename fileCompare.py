@@ -1,7 +1,10 @@
 #!/usr/bin/env python3.5
 # -*- coding: utf-8 -*-
 
-__author__ = 'Xin Yao'
+"""
+Compare the contents of two files.
+Implemented by Xin Yao : https://github.com/susurrant/
+"""
 
 
 def fileCompare(file1, file2, tag=False):

@@ -1,11 +1,9 @@
-#!/usr/bin/env python3.5
+#!/usr/bin/env python3.6
 # -*- coding: utf-8 -*-
-
 """
-write data to files
+Write data (list or dict) into a file.
+Implemented by Xin Yao : https://github.com/susurrant/
 """
-
-__author__ = 'Xin Yao'
 
 
 def serializeList(data, fileName, header, s):

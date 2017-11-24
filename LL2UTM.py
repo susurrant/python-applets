@@ -1,5 +1,10 @@
-#!/usr/bin/env python3.5
+#!/usr/bin/env python3.6
 # -*- coding: utf-8 -*-
+"""
+Transform coordinates under different projections.
+Implemented by Xin Yao : https://github.com/susurrant/
+"""
+
 
 import math
 

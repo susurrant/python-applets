@@ -1,7 +1,10 @@
-#!/usr/bin/env python3.5
+#!/usr/bin/env python3.6
 # -*- coding: utf-8 -*-
+"""
+Transform time formats.
+Implemented by Xin Yao : https://github.com/susurrant/
+"""
 
-__author__ = 'Xin Yao'
 
 import time
  

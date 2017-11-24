@@ -1,10 +1,11 @@
 # python-applets
 Useful programs of Python</br>
-Python version: 3.5</br>
+Python version: 3.6, 2.7</br>
 
 ## File description:
 - **fileCompare.py**:       Compare the contents of two files.</br>
 - **haverSineDistance.py**: Compute the haversine distance between two points.</br>
-- **LL2UTM.py**:            Coordinate transformation.</br>
-- **serialize.py**:         Dump data (list and dict) into files.</br>
-- **timeConvert.py**:       Time format transformation.</br>
+- **LL2UTM.py**:            Transform coordinates under different projections.</br>
+- **serialize.py**:         Write data (list or dict) into a file.</br>
+- **timeConvert.py**:       Transform time formats.</br>
+- **spatialJoin.py**:       Join attributes from one feature to another based on the spatial relationship.</br>
