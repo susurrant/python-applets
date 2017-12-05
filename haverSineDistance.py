@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-半正矢公式：给定两点经纬度，计算距离（km）'''
+半正矢公式：给定两点经纬度，计算距离（km）
 Implemented by Xin Yao : https://github.com/susurrant/
 """
 

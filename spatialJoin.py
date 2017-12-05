@@ -9,7 +9,6 @@ Implemented by Xin Yao : https://github.com/susurrant/
 
 import arcpy
 import os
-import pandas as pd
 
 arcpy.env.workspace = './data'
 arcpy.env.overwriteOutput = True
