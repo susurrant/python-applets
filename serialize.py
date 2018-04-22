@@ -40,19 +40,18 @@ def serializeDict(data, fileName, header, s):
             st += '\r\n'
             rf.write(st)
 
-        if isinstance(data.values()[0], list):
-            for k, d in data.items():
-                st = str(k)+s
-                for i in range(len(d)-1):
+        for k, d in data.items():
+            if isinstance(d, list):
+                st = str(k) + s
+                for i in range(len(d) - 1):
                     st += str(d[i])
                     st += s
-                if len(d)>0:
+                if len(d) > 0:
                     st += str(d[-1])
                 st += '\r\n'
                 rf.write(st)
-        else:
-            for k, v in data.items():
-                st = str(k)+s+str(v)+'\r\n'
+            else:
+                st = str(k)+s+str(d)+'\r\n'
                 rf.write(st)
 
     return True
