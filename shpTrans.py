@@ -28,6 +28,6 @@ def updateShapefile(fname):
 if __name__ == '__main__':
     files = os.listdir('./data')
     for sf in files:
-        if sf[-3:] == 'shp':
+        if sf.endswith('.shp'):
             print sf.decode(codetype).encode("utf-8")
             updateShapefile(sf.decode(codetype).encode("utf-8"))
